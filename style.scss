@@ -581,6 +581,7 @@ a{
         }
         &__state__title{
             background: #333333;
+            border-radius: 2px;
             width: 92px;
             height: 24px;
             display: flex;
@@ -1191,6 +1192,12 @@ a{
     }
 }
 @media all and (min-width: 1024px) {
+    .state__news__text:hover{
+        cursor: pointer;
+        p{
+           color: #FAAF3F !important;
+        }
+    }
     .main__column-2__state__link:hover{
         cursor: pointer;
         text-decoration: underline;
