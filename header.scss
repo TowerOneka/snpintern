@@ -1,0 +1,40 @@
+.header{
+    background: linear-gradient(360deg, #223036 0%, #223036 100%);
+    display: flex;
+    position: relative;
+    &__logo{
+        margin: 49px 57px 44px 47px;
+    }
+    .touch{
+        position: relative;
+    }
+    .touch::after{
+        content:'';
+        cursor: pointer;
+        position:absolute;
+        top:-14px; bottom:-26px; 
+        left:-20px; right:-20px; 
+    }
+    &__logo__media{
+        display: none;
+    }
+    &__icon-search{
+        display: none;
+    }
+    &__text{
+        color: #fff;
+        font-family: "PTSansCaption";
+        margin: 46px 68px 40px 0;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    &__login{
+        font-family: "PTSans";
+        font-weight: bold;
+        line-height: 10px;
+        position: absolute;
+        font-size: 15px;
+        right: 19px;
+        top: 12px;
+    }
+}
